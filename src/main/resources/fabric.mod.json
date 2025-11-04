@@ -13,9 +13,6 @@
 	"entrypoints": {
 		"main": [
 			"net.moonjink.dynamic_daylight.DynamicDaylight"
-		],
-		"client": [
-			"net.moonjink.dynamic_daylight.DynamicDaylightClient"
 		]
 	},
 	"depends": {

@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "dynamic-daylight",
+	"version": "${version}",
+	"name": "dynamic-daylight",
+	"description": "Dynamic Daylight controls the daylight cycle gamerule, based on player count",
+	"authors": [
+		"MoonJink"
+	],
+	"license": "MIT",
+	"icon": "assets/dynamic-daylight/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.moonjink.dynamic_daylight.DynamicDaylight"
+		],
+		"client": [
+			"net.moonjink.dynamic_daylight.DynamicDaylightClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
